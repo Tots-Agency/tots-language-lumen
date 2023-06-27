@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\Model;
  * Description of Model
  * @property int $id ID of item
  * @property mixed $title Description for variable
+ * @property mixed $short_title Description for variable
  * @property mixed $slug Description for variable
 
  *
@@ -19,6 +20,11 @@ use Illuminate\Database\Eloquent\Model;
  * )
  * @OA\Property(
  *  property="title",
+ *  type="string",
+ *  description=""
+ * )
+ * @OA\Property(
+ *  property="short_title",
  *  type="string",
  *  description=""
  * )
